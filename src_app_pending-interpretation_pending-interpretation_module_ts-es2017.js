@@ -1472,7 +1472,7 @@ class ActivePatientsService {
     }
     getDoctorsList() {
         // let url = this.BASE_URL + "clinical-facilities/physicians?size=2000";
-        let url = this.URL + `drop_down_user/CFTUA1?role=prescriber`;
+        let url = this.URL + `drop_down_user/CFPI8P?role=prescriber`;
         return this.http.get(url).pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_4__.catchError)(this.handleError));
     }
     getDoctorBy(id) {

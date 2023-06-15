@@ -299,6 +299,7 @@
             "interp_physician":"interpreting physician",
             "prelim_interp_physician":"Preliminary interpreting physician",
             "prescription":"Prescription",
+            "technician":"Technician",
             
             "primary_indication":"Primary clinical Indication",
             "order_id":"Order ID",

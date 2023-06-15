@@ -276,13 +276,13 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpropertyInterpolate"]("title", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipeBind1"](2, 12, "home_alerts.label_ih"));
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("loading", ctx_r1.alertLoading)("routerUrl", "/interpretation-history")("count", ctx_r1.dashboardSummary.techAlerts);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("loading", ctx_r1.alertLoading)("routerUrl", "/patients/interpretation-history")("count", ctx_r1.dashboardSummary.techAlerts);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpropertyInterpolate"]("title", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipeBind1"](4, 14, "home_alerts.label_archive"));
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("loading", ctx_r1.alertLoading)("routerUrl", "/archived")("count", ctx_r1.dashboardSummary.techAlerts);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("loading", ctx_r1.alertLoading)("routerUrl", "/patients/archived")("count", ctx_r1.dashboardSummary.techAlerts);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
 
@@ -455,7 +455,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpropertyInterpolate"]("title", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipeBind1"](4, 17, "home_alerts.label_posted_final"));
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("loading", ctx.loading)("view", ctx.isSCGCPHY())("routerUrl", "/posted-final")("count", ctx.dashboardSummary.unassignedPatches);
+            _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("loading", ctx.loading)("view", ctx.isSCGCPHY())("routerUrl", "/patients/posted-final")("count", ctx.dashboardSummary.unassignedPatches);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
 

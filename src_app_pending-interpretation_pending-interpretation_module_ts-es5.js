@@ -2366,7 +2366,7 @@
           key: "getDoctorsList",
           value: function getDoctorsList() {
             // let url = this.BASE_URL + "clinical-facilities/physicians?size=2000";
-            var url = this.URL + "drop_down_user/CFTUA1?role=prescriber";
+            var url = this.URL + "drop_down_user/CFPI8P?role=prescriber";
             return this.http.get(url).pipe((0, rxjs_operators__WEBPACK_IMPORTED_MODULE_4__.catchError)(this.handleError));
           }
         }, {

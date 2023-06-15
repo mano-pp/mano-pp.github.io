@@ -9569,6 +9569,7 @@
 
             console.log("SAA : " + this.authService.getRoles());
             var userId = this.authService.getUserId();
+            console.log("uId : " + userId);
             var preference;
             this.userService.getUser(userId).subscribe(function (response) {
               var _a, _b, _c, _d, _e;
@@ -27119,6 +27120,14 @@
         },
 
         /* harmony export */
+        "environmentLPP": function environmentLPP() {
+          return (
+            /* binding */
+            _environmentLPP
+          );
+        },
+
+        /* harmony export */
         "environmentLS": function environmentLS() {
           return (
             /* binding */
@@ -27160,6 +27169,25 @@
 
 
       var _environment = {
+        integ: true,
+        production: true,
+        environmentName: "alpha",
+        //dataApiUrl2: "http://localhost:8000/",
+        dataApiUrl2: "http://backend.probeplus.site/",
+        dataApiUrl: "https://alpha.api.lifesignals.com/api/v1/resources/",
+        keyClockUrl: "https://www.probeplus.site",
+        keyClockRealm: "ecgvue",
+        keyClockClientId: "frontend",
+        version: "1.2.1",
+        customization: {
+          logo: "logo.svg",
+          snackBarDuration: 3000,
+          enableTrends: false,
+          enablePlethRR: true,
+          timeFormat: 'H:mm'
+        }
+      };
+      var _environmentLPP = {
         integ: true,
         production: true,
         environmentName: "alpha",

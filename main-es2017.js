@@ -5844,6 +5844,7 @@ class AppComponent {
     ngOnInit() {
         console.log("SAA : " + this.authService.getRoles());
         let userId = this.authService.getUserId();
+        console.log("uId : " + userId);
         let preference;
         this.userService.getUser(userId)
             .subscribe((response) => {
@@ -15071,6 +15072,7 @@ function _validatePhoneNumberInput(c) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "environment": function() { return /* binding */ environment; },
+/* harmony export */   "environmentLPP": function() { return /* binding */ environmentLPP; },
 /* harmony export */   "environmentLS": function() { return /* binding */ environmentLS; },
 /* harmony export */   "environmentA": function() { return /* binding */ environmentA; },
 /* harmony export */   "environment2": function() { return /* binding */ environment2; },
@@ -15083,6 +15085,25 @@ __webpack_require__.r(__webpack_exports__);
 // redirect : http://keycloak.probeplus.site/* -> http://localhost:4200/#
 // web origin : http://keycloak.probeplus.site -> http://localhost:4200
 const environment = {
+    integ: true,
+    production: true,
+    environmentName: "alpha",
+    //dataApiUrl2: "http://localhost:8000/",
+    dataApiUrl2: "http://backend.probeplus.site/",
+    dataApiUrl: "https://alpha.api.lifesignals.com/api/v1/resources/",
+    keyClockUrl: "https://www.probeplus.site",
+    keyClockRealm: "ecgvue",
+    keyClockClientId: "frontend",
+    version: "1.2.1",
+    customization: {
+        logo: "logo.svg",
+        snackBarDuration: 3000,
+        enableTrends: false,
+        enablePlethRR: true,
+        timeFormat: 'H:mm'
+    }
+};
+const environmentLPP = {
     integ: true,
     production: true,
     environmentName: "alpha",
